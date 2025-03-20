@@ -11,6 +11,7 @@
 
 ## 📂 Folder Structure  
 
+```bash
 ├── README.md
 ├── package-lock.json
 ├── package.json
@@ -48,6 +49,7 @@
     │   ├── LoginScreen.css
     │   └── global.css
     └── utils
+```
 
 
 ## 🚀 Getting Started  
