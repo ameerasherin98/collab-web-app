@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./styles/global.css"; // Import global CSS
-import LoginScreen from "./pages/Login/LoginScreen";
-import BrandDashboard from "./pages/BrandDashboard/BrandDashboard";
+import AppRoutes from "./routes";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <LoginScreen/> */}
-    <BrandDashboard/>
+    <Router>
+      <AppRoutes />
+    </Router>
   </React.StrictMode>
 );
