@@ -1,0 +1,27 @@
+.header {
+    display: flex; /* Ensure it becomes a flex container */
+    flex-direction: row;
+    align-items: center; /* Aligns items vertically in the same row */
+    justify-content: space-between; /* Spreads logo and nav */
+    background-color: #2563eb;
+    padding: 10px 20px;
+    width: 100%;
+  }
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px; /* Adjust spacing between items */
+      padding: 0;
+      margin: 0;
+    }
+  
+    .nav-links li {
+      cursor: pointer;
+      font-weight: bold;
+      color: #e5e7eb;
+      font-size: larger;
+    }

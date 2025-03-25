@@ -1,0 +1,38 @@
+/* General Layout */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #eef2f6; /* Slightly darker for better contrast */
+}
+
+/* Main Content - Grid Layout */
+.main-content {
+  display: flex;
+}
+
+/* Left Section */
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Right Section */
+.right-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Hover effect for cards */
+.overview-cards:hover,
+.campaigns-section:hover,
+.influencer-collaboration:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+

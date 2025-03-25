@@ -1,10 +1,10 @@
 import React from "react";
-import GoogleIcon from '../assets/svg/google_login.svg'
-import InstagramIcon from '../assets/svg/insta_logo.svg'
-import CollabLogo from '../assets/logos/Collab.png'
+import GoogleIcon from '../../assets/svg/google_login.svg'
+import InstagramIcon from '../../assets/svg/insta_logo.svg'
+import CollabLogo from '../../assets/logos/Collab.png'
 
-import '../styles/LoginScreen.css'
-import { login } from "../api/login";
+import { login } from "../../api/login";
+import './LoginScreen.css'
 
 const LoginScreen = () => {
   return (
